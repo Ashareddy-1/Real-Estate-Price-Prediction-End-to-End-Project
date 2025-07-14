@@ -5,9 +5,13 @@ This project is a complete, production-ready pipeline for predicting house price
 🚀 Project Structure
 
 ├── client/                     # Frontend (can be CLI or Web UI using HTML/JS)
+
 ├── model/                      # Trained ML models and utility scripts
+
 ├── server/                     # FastAPI or Flask backend serving predictions
+
 ├── bengaluru_house_prices.csv  # Cleaned housing dataset
+
 └── README.md                   # Project documentation
 
 📊 Dataset
