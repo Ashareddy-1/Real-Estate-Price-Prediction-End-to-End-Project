@@ -53,9 +53,6 @@ Simple client script or frontend to interact with the backend.
 ▶️ How to Run
 
 1. Clone the Repo
-   
-git clone https://github.com/your-username/real-estate-price-prediction.git
-cd real-estate-price-prediction
 
 2. Run the Server
    
@@ -72,12 +69,14 @@ python predict.py
 If using a web UI, open the HTML file in a browser or connect it to the API endpoint.
 
 🔍 Sample API Call (JSON)
+
 {
   "location": "Indira Nagar",
   "total_sqft": 1200,
   "bath": 2,
   "bhk": 3
 }
+
 Response:
 
 {
