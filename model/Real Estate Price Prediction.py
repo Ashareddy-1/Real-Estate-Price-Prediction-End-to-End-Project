@@ -4,7 +4,7 @@ import matplotlib
 from matplotlib import pyplot as plt
 
 # Load the dataset
-df1 = pd.read_csv(r'C:\Users\SESA610197\Documents\AIMLLNG\ML\Real Estate Price Prediction E2E Project\bengaluru_house_prices.csv')
+df1 = pd.read_csv('bengaluru_house_prices.csv')
 print(df1)
 
 # Group by 'area_type' and count
